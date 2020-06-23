@@ -100,7 +100,7 @@ import org.apache.spark.unsafe.types.UTF8String;
  * @author Rahul Dubey
  * @author swale
  */
-@SuppressWarnings("serial")
+@SuppressWarnings({ "serial", "WeakerAccess" })
 public final class RowFormatter implements Serializable {
 
   /*
@@ -179,7 +179,7 @@ public final class RowFormatter implements Serializable {
   /**
    * Number of bytes required for serializing {@link #TOKEN_RECOVERY_VERSION}.
    */
-  static final int TOKEN_RECOVERY_VERSION_BYTES = getCompactIntNumBytes(
+  private static final int TOKEN_RECOVERY_VERSION_BYTES = getCompactIntNumBytes(
       TOKEN_RECOVERY_VERSION);
 
   /**

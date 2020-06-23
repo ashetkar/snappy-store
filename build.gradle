@@ -59,7 +59,7 @@ allprojects {
     pxfVersion = '2.5.1.0'
     osgiVersion = '6.0.0'
     jettyVersion = '9.2.26.v20180806'
-    hadoopVersion = '2.7.7'
+    hadoopVersion = '3.2.0'
     protobufVersion = '2.6.1'
     kryoVersion = '4.0.2'
     thriftVersion = '0.9.3'
@@ -131,7 +131,7 @@ allprojects {
     PRODUCT_MAJOR = '1'
     PRODUCT_MINOR = '6'
     PRODUCT_MAINT = '5'
-    PRODUCT_CLASSIFIER = ''
+    PRODUCT_CLASSIFIER = '-HF-1'
     PRODUCT_RELEASE_STAGE = ''
     PRODUCT_VERSION = "${PRODUCT_MAJOR}.${PRODUCT_MINOR}.${PRODUCT_MAINT}${PRODUCT_CLASSIFIER}"
     vendorName = 'TIBCO Software Inc.'
